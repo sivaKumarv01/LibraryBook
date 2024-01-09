@@ -1,0 +1,22 @@
+
+<form (submit)="addBook()">
+  <label >Book ID:</label>
+  <input type="text"  name="bookID" [(ngModel)]="bookData.bookID" required>
+
+  <label >Book Name:</label>
+  <input type="text"  name="bookName" [(ngModel)]="bookData.bookName" required>
+
+  <label >Author Name:</label>
+  <input type="text"  name="authorName" [(ngModel)]="bookData.authorName" required>
+
+  <label >Published By:</label>
+  <input type="text" name="publishedBy" [(ngModel)]="bookData.publishedBy" required>
+
+  <label >Year:</label>
+  <input type="number"  name="year" [(ngModel)]="bookData.year" required>
+
+  <label >Description:</label>
+  <textarea  name="description" rows="4" [(ngModel)]="bookData.description" required></textarea>
+
+  <button type="submit">Add Book</button>
+</form>

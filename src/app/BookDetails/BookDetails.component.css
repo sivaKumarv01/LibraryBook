@@ -1,0 +1,29 @@
+.container {
+  width: 800px;
+  margin: auto;
+  margin-top: -1%;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-image {
+  float: left;
+  margin-right: 10px;
+  width: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-details {
+  overflow: hidden;
+  margin-top: 2%;
+}
+
+.book-details p {
+  margin: 0;
+  padding: 5px;
+  color: black;
+  text-align: justify;
+}

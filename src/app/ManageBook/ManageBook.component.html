@@ -1,0 +1,35 @@
+<table>
+  <thead>
+    <tr>
+      <th>Book ID</th>
+      <th>Book Name</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+    <tr *ngFor="let details of bookDetails">
+
+      <td>{{details.bookId}}</td>
+      <td>{{details.title}}</td>
+      <td><a (click)="showDetails(details.bookId)">Click here to Edit Book Details</a></td>
+      <td><button (click)="deleteBook(details.id)">Delete</button></td>
+    </tr>
+</table>
+<form *ngIf="edit" (ngSubmit)="saveChanges(editDetails.id)">
+  <label>Book ID:</label>
+  <input type="number" name="bookID" [(ngModel)]="editDetails.bookId" required>
+
+  <label>Book Name:</label>
+  <input type="text"  name="bookName" [(ngModel)]="editDetails.title" required>
+
+  <label>Author Name:</label>
+  <input type="text"  name="authorName" [(ngModel)]="editDetails.Author" required>
+
+  <label >Year:</label>
+  <input type="number" name="year" [(ngModel)]="editDetails.Year" required>
+
+  <label >Description:</label>
+  <textarea  name="description" rows="4" [(ngModel)]="editDetails.Description" required></textarea>
+
+  <button type="submit">Save Changes</button>
+</form>

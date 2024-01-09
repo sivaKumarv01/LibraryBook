@@ -1,0 +1,32 @@
+
+nav {
+  background-color: rgb(14, 210, 244);
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: fixed;
+}
+
+nav a {
+  float: left;
+  display: flex;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+ background-color: rgb(179, 220, 245);
+  color: #333;
+}
+nav a:active {
+  background-color: rgb(179, 220, 245);
+  color: #333;
+}
+.content {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: 5%;
+}

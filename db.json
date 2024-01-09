@@ -1,0 +1,40 @@
+{
+  "BookDetails": [
+    {
+      "id": 1,
+      "bookId": 101,
+      "title": "Java the Complete Reference - COMPLETE",
+      "Author": " Herbert Schildt",
+      "Year": 2017,
+      "image": "assets/Images/Java.jpg",
+      "Description": " Fully updated for Java SE 8: covers new features, includes modules and lambda expressions AWT related material condensed, Focus shifted to Swing 3 new chapters on JavaFX Dynamic code examples show key features in action, Information on Java's core libraries and key programming techniques Source codes for all examples and projects in the book available for free download"
+    },
+    {
+      "id": 2,
+      "bookId": 102,
+      "title": "Data Structures And Algorithms Made Easy",
+      "Author": " Narasimha Karumanchi",
+      "Year": 2023,
+      "image": "assets/Images/dsa.jpg",
+      "Description": "Data Structures And Algorithms Made Easy: Data Structures and Algorithmic Puzzles is a book that offers solutions to complex data structures and algorithms. It can be used as a reference manual by those readers in the computer science industry. This book serves as guide to prepare for interviews, exams, and campus work. In short, this book offers solutions to various complex data structures and algorithmic problems."
+    },
+    {
+      "id": 3,
+      "bookId": 103,
+      "title": "Computing Fundamentals And C Programming",
+      "Author": "E Balagurusamy",
+      "Year": 2017,
+      "image": "assets/Images/c.jpg",
+      "Description": "The book has been thoroughly updated as per the requirements of the new syllabus with optimum coverage of computer fundamentals. The concepts of C along with a competitive edge will prepare students for their CS and IT domain specific study and applications in their respective branches, as well as campus placements. It follows an illustrative and easy-to-learn approach with unique combination of optimum theory and numerous examples."
+    },
+    {
+      "id": 4,
+      "bookId": 104,
+      "title": "Object-Oriented Programming with C++ ",
+      "Author": " E Balagurusamy",
+      "Year": 2020,
+      "image": "assets/Images/cplus.jpg",
+      "Description": "Object-oriented programming with C++, 8th edition is here with some valuable updates. The new edition helps students to assess their learning by answering questions based on learning outcomes. Objective-type questions and dry-run questions are introduced to make students exam ready. A new appendix on interview questions is for those seeking to join the industry. The book is designed for students studying at the undergraduate level. It provides all-inclusive concepts and programs on object-oriented programming with C++ as an implementation language."
+    }
+  ]
+}

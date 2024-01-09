@@ -1,0 +1,14 @@
+<table>
+  <thead>
+    <tr>
+      <th>Book ID</th>
+      <th>Book Name</th>
+      <th></th>
+    </tr>
+  </thead>
+    <tr *ngFor="let details of bookDetails">
+      <td>{{details.bookId}}</td>
+      <td>{{details.title}}</td>
+      <td><a (click)="showDetails(details.bookId)">Click here to view Book Details</a></td>
+    </tr>
+</table>

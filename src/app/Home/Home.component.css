@@ -1,0 +1,27 @@
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: black;
+  text-align: justify;
+  color: white
+}
+td a {
+  cursor: pointer;
+
+}
+a:hover {
+  color: rgb(14, 210, 244);
+}
+
